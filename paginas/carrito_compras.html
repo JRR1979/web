@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera Maqueta</title>
+    <LINK REL="StyleSheet" HREF="../css/estilo1.css">
+</head>
+<body>
+    <div id="contenedor">
+    <br>
+        <div id="encabezado">
+            <table style="width:100%">
+            <tr>
+                <td rowspan="2" style="width:25%">
+                    <center>
+                    <!--logo-->
+                    <img src="../imagenes/header__web-2.png" width="78%">
+                    </center></td>
+
+                <td><br><br><center>
+                    <!--titulo-->
+                    <img src="../imagenes/header_-03.png" width="85%"></td>
+
+                <td rowspan="2" style="width:20%">
+                    <!--links a redes-->
+                    <a href="http://www.facebook.com"><img src="../imagenes/header_web-4.png"
+                    alt="Detalles y Marcas" style="height:80px">
+                    <br><br>
+                    <a href="http://www.instagram.com"><img src="../imagenes/header_web-5.png"
+                    alt="Detalles y Marcas" style="height:80px">
+                </td>
+            </tr>
+            <tr style="height:100px">
+                <td><center>
+                    <!--menu-->
+                    <ul id="button">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../paginas/productos.html">Productos</a></li>
+                        <li><a href="../paginas/carrito_compras.html">Carrito</a></li>
+                        <li><a href="../paginas/contactenos.html">Contactenos</a></li>
+                    </ul>
+                    </center></td>
+            </tr>
+            </table>
+        </div>
+
+        <br>
+        <div id="cuerpo">
+            <table style="width:100%">
+                <td style="width:50%"><div class="t2">
+                    <p>Seleccione la cantidad de articulos que desea adquirir</p>
+                    <br>
+                    Mugs Personalizados --------- <input id="item1" value="0"><br>
+                    $17.000 unidad<br><br>
+                    Camisetas Personalizadas --- <input id="item2" value="0"><br>
+                    $30.000 unidad<br><br>
+                    Cuadernos Personalizados --- <input id="item3" value="0"><br>
+                    $18.000 unidad<br><br>
+                    Botones Personalizados ------ <input id="item4" value="0"><br>
+                    $10.000 unidad<br><br>
+                    <button type="button" onclick="shopValue()" style="width:200px; height:40px; font-size:15pt; font-family:Trebuchet MS;">Calcular compra</button>
+                    </div></td>
+
+                <td><div class="t1">
+                    <p id="value"></p>
+                    <script src="../js/Script.js"></script>
+                    </div></td>
+                    </table>
+        </div>
+
+        <br>
+        <div id="pie">
+            <table style="width:100%">
+                <td style="width:50%"><div class="a">
+                    <p>Contacto:<br>Whatsapp: 3172154173
+                    <br>horario de atencion: 8:00 am - 6:00 pm</p>
+                    </div></td>
+                <td><div class="b">
+                    <p>Calle xx # xx - xx
+                    <br>Fontibón - Bogotá<br>Colombia</p>
+                    </div></td>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

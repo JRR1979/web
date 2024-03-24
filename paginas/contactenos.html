@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera Maqueta</title>
+    <LINK REL="StyleSheet" HREF="../css/estilo1.css">
+</head>
+<body>
+    <div id="contenedor">
+    <br>
+        <div id="encabezado">
+            <table style="width:100%">
+            <tr>
+                <td rowspan="2" style="width:25%">
+                    <center>
+                    <!--logo-->
+                    <img src="../imagenes/header__web-2.png" width="78%">
+                    </center></td>
+
+                <td><br><br><center>
+                    <!--titulo-->
+                    <img src="../imagenes/header_-03.png" width="85%"></td>
+
+                <td rowspan="2" style="width:20%">
+                    <!--links a redes-->
+                    <a href="http://www.facebook.com"><img src="../imagenes/header_web-4.png"
+                    alt="Detalles y Marcas" style="height:80px">
+                    <br><br>
+                    <a href="http://www.instagram.com"><img src="../imagenes/header_web-5.png"
+                    alt="Detalles y Marcas" style="height:80px">
+                </td>
+            </tr>
+            <tr style="height:100px">
+                <td><center>
+                    <!--menu-->
+                    <ul id="button">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../paginas/productos.html">Productos</a></li>
+                        <li><a href="../paginas/carrito_compras.html">Carrito</a></li>
+                        <li><a href="../paginas/contactenos.html">Contactenos</a></li>
+                    </ul>
+                    </center></td>
+            </tr>
+            </table>
+        </div>
+
+        <br>
+        <div id="cuerpo">
+            <fieldset>
+                <form method="post">
+                <h2>Datos de contacto</h2>
+                <label>Nombre: </label> <input type="text" size="20" name="nombre" placeholder="Digite su nombre"><br><br>
+                Apellidos: <input type="text" size="40" placeholder="Digite su apellido"><br><br>
+                Email: <input type="text" size="40" placeholder="Digite su correo"><br><br>
+                Telefono: <input type="text" size="40" placeholder="Digite su numero"><br><br>
+                Motivo de contacto<br>
+                <select>
+                    <option>compras</option>
+                    <option>sugerencias</option>
+                    <option>reclamos</option>
+                </select>
+                <br>
+                Comentarios:<br>
+                <textarea cols="100" rows="10"></textarea>
+                <br>
+                <input type="submit" value="Guardar datos"><br>
+                <input type="reset" value="Limpiar datos"><br><br>
+                Ingrese un soporte de ser necesario <input type="file"><br><br>
+                Medio por el cual desea recibir respuesta:<br>
+                Celular<input type="radio">
+                Email<input type="radio">
+                </form>
+                </fieldset>
+        </div>
+
+        <br>
+        <div id="pie">
+            <table style="width:100%">
+                <td style="width:50%"><div class="a">
+                    <p>Contacto:<br>Whatsapp: 3172154173
+                    <br>horario de atencion: 8:00 am - 6:00 pm</p>
+                    </div></td>
+                <td><div class="b">
+                    <p>Calle xx # xx - xx
+                    <br>Fontibón - Bogotá<br>Colombia</p>
+                    </div></td>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
